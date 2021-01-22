@@ -20,7 +20,7 @@ class library{
 }
 
 
-public class variables1 {
+public class Methods1 {
 	public static void main(String args[]) {
 		library StJohn = new library();
 		StJohn.booklist();
