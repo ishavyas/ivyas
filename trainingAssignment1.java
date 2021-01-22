@@ -12,7 +12,7 @@ class student{
 	
 }
 
-public class trainingAssignment1 {
+public class Variables1 {
 	public static void main(String args[]) {
 		
 		student.schoolName = "St.James";
