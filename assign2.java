@@ -19,7 +19,7 @@ class tuition {
 	}
 }
 
-public class variables2 {
+public class Methods2 {
 	public static void main(String args[]) {
 		tuition programmasters = new tuition();
 		programmasters.subjects();
