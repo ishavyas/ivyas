@@ -31,6 +31,10 @@ class Bank{
 	}
 }
 
+abstract class Credit{
+	abstract void APR();
+}
+
 public class InnerClass1 {
 
 	public static void main(String[] args) {
@@ -39,6 +43,12 @@ public class InnerClass1 {
 		Bank.Home h = Chase.new Home();
 		h.interest();
 		Bank.Personal.rateofinterest();
+		Credit ch = new Credit() {
+			void APR() {
+				System.out.println("Chase Credit Cards available on 0% APR for first 14 months");
+			}
+		};
+		ch.APR();
 
 	}
 
