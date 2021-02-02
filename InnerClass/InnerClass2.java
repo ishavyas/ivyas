@@ -1,3 +1,5 @@
+package trainingAssignment9;
+
 class Theatre{
 	void Shows() {
 		System.out.println("Available Shows: Action Movies, Rom Com Movies, Broadway Musical, Plays");
@@ -33,6 +35,10 @@ class Theatre{
 	}
 }
 
+abstract class LiveShows{
+	abstract void eventtime();
+}
+
 public class InnerClass2 {
 
 	public static void main(String[] args) {
@@ -42,8 +48,14 @@ public class InnerClass2 {
 		Theatre.Plays pl = t.new Plays();
 		pl.schedule();
 		Theatre.Broadway.time();
-		
+		LiveShows live = new LiveShows() {
+			void eventtime() {
+				System.out.println("The live Concert starts at 5:00PM on Feb 14th, 2021");
+			}
+		};
+		live.eventtime();
 
 	}
 
 }
+
