@@ -1,5 +1,3 @@
-package trainingAssignment11;
-
 import java.util.Scanner;
 import java.util.LinkedList;
 
