@@ -1,5 +1,3 @@
-package trainingAssignment11;
-
 import java.util.LinkedHashSet;
 
 class LinkedhashsetDemo{
