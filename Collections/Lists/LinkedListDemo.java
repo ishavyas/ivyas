@@ -58,7 +58,7 @@ class Linkedlists{
 		if(list.contains(j))
 			System.out.println("The index of the element j " +j+ " is: " +list.indexOf(j));
 		else
-			System.out.println("The ArrayList does not contain " +j);
+			System.out.println("The LinkedList does not contain " +j);
 	}
 	
 	void replaceitem() {
